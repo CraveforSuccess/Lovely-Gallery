@@ -4,7 +4,7 @@ const path = require('path');
 const fs = require('fs');
 const mongoose = require('mongoose')
 const ejs = require('ejs');
-const { log } = require('console');
+
 
 const app = express()
 app.use(express.static(path.join(__dirname + '/public')))

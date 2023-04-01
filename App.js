@@ -23,7 +23,7 @@ const Img_Schema = mongoose.model('Img_Schema', ImgSchema)
 
 const Storage = multer.diskStorage({
    destination: function (req, file, cb) {
-    cb(null, path.join(__dirname,'uploads');
+    cb(null, path.join(__dirname,'uploads'));
   },
   filename: function (req, file, cb) {
     cb(null, file.fieldname + '_' + Date.now() + path.extname(file.originalname));

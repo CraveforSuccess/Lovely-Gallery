@@ -1,0 +1,18 @@
+*{
+    box-sizing: border-box;
+}
+
+
+/* .imghandler{
+    display: none;
+} */
+
+.Gallery{
+    font-family: cursive;
+}
+
+.Gallery img{
+   max-width: 100%;
+}
+
+
